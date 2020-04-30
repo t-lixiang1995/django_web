@@ -36,7 +36,8 @@
 | [pymysql](https://pypi.org/project/PyMySQL/) | 连接mysql数据库 | 0.9.3 |
 | [djangorestframework](https://www.django-rest-framework.org/) | 可以帮我们快速开发出一个遵循restful规范的程序 | 3.11.0 |
 
-#####搭建django项目流程
+#### 搭建django项目流程
+#####
     1.创建项目命令：django-admin startproject FirstDjango
     2.创建应用命令：python manage.py startapp booktest
     3.执行python manage.py makemigrations生成迁移，生成sql脚本
@@ -45,3 +46,4 @@
     6.启动服务：python manage.py runserver
     7.浏览器输入：http://127.0.0.1:8000/admin，使用自己创建的超级管理员登录（这是后台管理系统）
     8.浏览器输入http://127.0.0.1:8000/sys/login使用初始账户admin,admin登录，之后所有请求带上登录生成的token即可
+    
